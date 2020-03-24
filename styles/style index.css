@@ -1,0 +1,9 @@
+div#aside {
+   padding-top: 15px; 
+   padding-left: 80px;
+}
+div#content {
+    box-sizing:border-box ;
+    padding-top: 60px;
+    padding-right: 10px;
+}

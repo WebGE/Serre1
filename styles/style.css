@@ -1,0 +1,172 @@
+/* Remarque : toutes les règles ne sont pas modifiées à chaque étape */
+
+* {
+    /* Reset CSS Etape 1 */
+    margin: 0px;
+}
+
+body {
+    /* Etape 1 */
+    /* Etape 2 */
+    /* Etape 3 */
+    /* Etape 4 */
+    /* Etape 5 */
+    background-color: white;
+    color: white;
+}
+
+div#page {
+    /* Etape 1 */
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    /* Etape 2 */
+    /* Etape 3 */
+    /* Etape 4 */
+    /* Etape 5 */
+    background: -webkit-linear-gradient(top, #529B36, #4BBC22, #47F907);
+    background: -o-linear-gradient(bottom, #529B36, #4BBC22, #47F907);
+    background: -moz-linear-gradient(bottom, #529B36, #4BBC22, #47F907);
+    background: linear-gradient(to top, #529B36, #4BBC22, #47F907);
+}
+
+div#logo {
+    /* Etape 1 */
+    width: 150px;
+    height: 150px;
+    /* Etape 2 */
+    float: left;
+    /* Etape 3 */
+    text-align: center;
+    margin: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: static;
+    z-index: 8;
+    /* Etape 4 */
+    /* Etape 5 */
+    background-color: #008000;
+}
+
+div#banner {
+    /* Etape 1 */
+    width: 1020px;
+    line-height: 150px;
+    /* Etape 2 */
+    float: left;
+    /* Etape 3 */
+    margin: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: static;
+    z-index: 8;
+    /* Etape 4 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    /* Etape 5 */
+    background-color: #008000;
+}
+
+.boutonmenuprincipal {
+    background-color: #008000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 45px;
+    border: 1px solid #000;
+}
+
+.boutonmenuprincipal:hover {
+    background-color: #008000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #59DC29;
+    width: 400px;
+    line-height: 50px;
+    z-index: 6;
+    position: absolute;
+    border: 1px solid #000;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #000;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+div#content {
+    /* Etape 1 */
+    width: 585px;
+    height: 400px;
+    /* Etape 2 */
+    clear: both;
+    float: left;
+    /* Etape 3 */
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    position: static;
+    z-index: 4;
+    /* Etape 4 */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+    /* Etape 5 */
+    background-color: #008000;
+}
+
+div#aside {
+    /* Etape 1 */
+    width: 585px;
+    height: 400px;
+    /* Etape 2 */
+    float: left;
+    /* Etape 3 */
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: static;
+    z-index: 4;
+    /* Etape 4 */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+    /* Etape 5 */
+    background-color: #008000;
+}
+
+div#footer {
+    /* Etape 1 */
+    width: 1180px;
+    line-height: 60px;
+    /* Etape 2 */
+    clear: both;
+    float: left;
+    /* Etape 3 */
+    margin: 10px;
+    margin-top: 5px;
+    /* Etape 4 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /* Etape 5 */
+    background-color: #008000;
+}

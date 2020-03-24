@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<!--FIXME: A remplacer par le nom de la page-->
+	<title id='Description'>Générique Wifi V2 - démo REST</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="scripts/jQuery/jqwidgets-ver7.1.0/styles/jqx.base.css" type="text/css" />
+	<script type="text/javascript" src="scripts/jQuery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="scripts/jQuery/jqwidgets-ver7.1.0/jqxcore.js"></script>
+	<script type="text/javascript" src="scripts/jQuery/jqwidgets-ver7.1.0/jqxchart.js"></script>
+	<script type="text/javascript" src="scripts/jQuery/jqwidgets-ver7.1.0/jqxgauge.js"></script>
+	<script type="text/javascript" src="scripts/jQuery/jqwidgets-ver7.1.0/jqxbuttons.js"></script>
+</head>
+
+<body>
+	<div id="Humiditesol"></div>
+	<!--<p> La valeur transmise est mise à l'échelle 0 - 50°C : </p>-->
+	<div id="val1"></div>
+	<!-- style="display:none" -->
+	<!--<p>Commande d'une sortie logique de la carte Arduino Wifi (par exemple 11 avec une LED sur O0 Tinkerkit)</p>-->
+	<form method="GET">
+		<input type="button" id="On" value="On" />
+		<input type="button" id="Off" value="Off" />
+	</form>
+	<script type="text/javascript" src="scripts/humiditesol.js"></script>
+</body>
+
+</html>
